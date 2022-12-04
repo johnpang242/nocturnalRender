@@ -215,4 +215,4 @@ def update_output(n_clicks,value1,value2,rows):
     return strat.plot2(value1,0,2)
 
 if __name__=='__main__':
-    application.run(host='0.0.0.0', port='8080')
+    app.run_server(debug = False)
