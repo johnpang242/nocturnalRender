@@ -14,7 +14,7 @@ df.columns = ['Type','Strike','Price','Position']
 
 app = Dash(__name__)
 
-application = app.server
+server = app.server
 
 app.layout = html.Div(
     style = {
